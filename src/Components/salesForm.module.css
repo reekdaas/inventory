@@ -1,0 +1,53 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 108vh;
+}
+
+.addModal {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  border: 2px solid blueviolet;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: grey;
+  opacity: 1;
+  padding: 1.5rem 1rem;
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30rem;
+  font-weight: 800;
+
+  transform: translate(-50%, -50%);
+  margin: 2rem 0rem;
+}
+
+.modalText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modalText > input {
+  outline: none;
+  padding: 8px 0;
+}
+
+.addModal > button {
+  padding: 8px 0;
+  border-radius: 4px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border: 2px solid yellowgreen;
+  font-weight: 700;
+  /* font-size: large; */
+}
