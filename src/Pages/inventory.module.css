@@ -1,0 +1,42 @@
+.inventoryPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.inventoryPage table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 16px;
+}
+
+th {
+  background-color: #8caa04;
+}
+
+table button,
+.inventoryHeader > button {
+  padding: 10px 16px;
+  margin: 0 12px;
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+
+table button:hover,
+.inventoryHeader > button:hover {
+  background-color: antiquewhite;
+}
+
+.inventoryHeader {
+  display: flex;
+  gap: 1.25rem;
+}

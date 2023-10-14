@@ -1,0 +1,31 @@
+.salesPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.salesHeader {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.salesTable table {
+  border-collapse: collapse;
+  /* width: 100%; */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.salesHeader > button {
+  padding: 10px 16px;
+  margin: 0 12px;
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+
+.salesHeader > button:hover {
+  background-color: antiquewhite;
+}
